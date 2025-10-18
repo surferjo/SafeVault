@@ -1,0 +1,11 @@
+  Wiederherzustellende Projekte werden ermittelt...
+  Alle Projekte sind für die Wiederherstellung auf dem neuesten Stand.
+  SafeVault -> C:\Users\jonas\Desktop\Programming\MicrosoftBackend\5\Capstone\SafeVaultWorkspace\SafeVault\bin\Debug\net9.0\SafeVault.dll
+  SafeVault.Tests -> C:\Users\jonas\Desktop\Programming\MicrosoftBackend\5\Capstone\SafeVaultWorkspace\SafeVault.Tests\bin\Debug\net9.0\SafeVault.Tests.dll
+Testlauf für "C:\Users\jonas\Desktop\Programming\MicrosoftBackend\5\Capstone\SafeVaultWorkspace\SafeVault.Tests\bin\Debug\net9.0\SafeVault.Tests.dll" (.NETCoreApp,Version=v9.0)
+VSTest-Version 17.12.0 (x64)
+
+Die Testausführung wird gestartet, bitte warten...
+Insgesamt 1 Testdateien stimmten mit dem angegebenen Muster überein.
+
+Bestanden!   : Fehler:     0, erfolgreich:     5, übersprungen:     0, gesamt:     5, Dauer: 704 ms - SafeVault.Tests.dll (net9.0)

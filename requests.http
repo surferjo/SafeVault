@@ -1,0 +1,49 @@
+@baseUrl = http://localhost:5113
+
+### Register an admin user (JSON)
+POST {{baseUrl}}/Auth/register
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "email": "admin@example.com",
+  "password": "Pass123!",
+  "role": "admin"
+}
+
+### Register a normal user (JSON)
+POST {{baseUrl}}/Auth/register
+Content-Type: application/json
+
+{
+  "username": "normaluser",
+  "email": "user@example.com",
+  "password": "UserPass123",
+  "role": "user"
+}
+
+### Login as admin (JSON)
+POST {{baseUrl}}/Auth/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "Pass123!"
+}
+
+### Login as normal user (JSON)
+POST {{baseUrl}}/Auth/login
+Content-Type: application/json
+
+{
+  "username": "normaluser",
+  "password": "UserPass123"
+}
+
+### Access admin dashboard as admin (header)
+GET {{baseUrl}}/Admin/dashboard
+Username: admin
+
+### Access admin dashboard as normal user (should be forbidden)
+GET {{baseUrl}}/Admin/dashboard
+Username: normaluser
